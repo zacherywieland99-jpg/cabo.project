@@ -1,17 +1,26 @@
 [gd_scene format=3 uid="uid://ysjtketxcskq"]
 
-[ext_resource type="Texture2D" uid="uid://4w4j3tmmbfvv" path="res://cards/Clubs/2-Clubs.png" id="1_q753v"]
+[ext_resource type="Script" uid="uid://cmvlwshf2ited" path="res://scripts/card.gd" id="2_0aq6d"]
+[ext_resource type="Resource" uid="uid://bair1amtd0tod" path="res://cards/1OFHEARTS.tres" id="2_irwmq"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_nkpyj"]
-size = Vector2(60, 82)
+[node name="main" type="CanvasLayer" unique_id=1869138105]
 
-[node name="main" type="Node2D" unique_id=1841713559]
+[node name="Control" type="Control" parent="." unique_id=1111772500]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
 
-[node name="card" type="Sprite2D" parent="." unique_id=290822697]
-texture = ExtResource("1_q753v")
-
-[node name="Area2D" type="Area2D" parent="card" unique_id=143898354]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="card/Area2D" unique_id=1581032860]
-position = Vector2(0, 2)
-shape = SubResource("RectangleShape2D_nkpyj")
+[node name="card" type="TextureRect" parent="Control" unique_id=1786465716]
+layout_mode = 0
+anchor_right = 0.055555556
+anchor_bottom = 0.14814815
+offset_right = -24.0
+offset_bottom = -56.0
+pivot_offset_ratio = Vector2(0.5, 0.5)
+script = ExtResource("2_0aq6d")
+data = ExtResource("2_irwmq")
+metadata/_edit_use_anchors_ = true
