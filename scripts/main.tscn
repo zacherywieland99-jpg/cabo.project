@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ysjtketxcskq"]
+
+[ext_resource type="Texture2D" uid="uid://4w4j3tmmbfvv" path="res://cards/Clubs/2-Clubs.png" id="1_q753v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nkpyj"]
+size = Vector2(60, 82)
+
+[node name="main" type="Node2D" unique_id=1841713559]
+
+[node name="card" type="Sprite2D" parent="." unique_id=290822697]
+texture = ExtResource("1_q753v")
+
+[node name="Area2D" type="Area2D" parent="card" unique_id=143898354]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="card/Area2D" unique_id=1581032860]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_nkpyj")
