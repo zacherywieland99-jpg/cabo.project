@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://6wdfovges1wo"]
+
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="1_5s2qb"]
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_nilg7"]
+[ext_resource type="Texture2D" uid="uid://hj65wbw2tyle" path="res://cards/Hearts/2-Hearts.png" id="2_tkxfi"]
+
+[resource]
+script = ExtResource("1_5s2qb")
+value = 2
+frontTexture = ExtResource("2_tkxfi")
+backTexture = ExtResource("1_nilg7")
+metadata/_custom_type_script = "uid://jv6cb8kekr7k"
