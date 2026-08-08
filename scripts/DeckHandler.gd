@@ -12,6 +12,7 @@ func draw() -> CardData:
 	return 
 
 
+@warning_ignore("unused_parameter")
 func discard(card : CardData):
 	return
 
