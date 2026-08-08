@@ -15,3 +15,7 @@ enum SUITS  {
 	CLUBS,
 	SPADES
 }
+
+
+func activatePower():
+	print(DeckHandler.dummyVar)
