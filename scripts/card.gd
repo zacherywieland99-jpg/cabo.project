@@ -18,11 +18,14 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("ClickL") and hovered:
 		flip()
+	if Input.is_action_just_pressed("ClickR") and hovered:
+		data.activatePower()
 
 func loadcard(cd : CardData):
 	frontTexture = cd.frontTexture
 	backTexture = cd.backTexture
 	
+
 
 func flip():
 	if not flipped:

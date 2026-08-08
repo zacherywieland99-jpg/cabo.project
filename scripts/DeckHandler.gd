@@ -1,0 +1,21 @@
+extends Node
+
+var dummyVar = "yeah"
+
+var drawPile : Array[CardData]
+var discardPile : Array[CardData]
+
+func _ready():
+	shuffle()
+# Called when the node enters the scene tree for the first time.
+func draw() -> CardData:
+	return 
+
+
+func discard(card : CardData):
+	return
+
+func shuffle():
+	for file in DirAccess.open("res://cards/card_data/").get_files():
+		print(file)
+		

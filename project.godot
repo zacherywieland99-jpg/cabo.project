@@ -14,6 +14,10 @@ config/name="cabo.project"
 run/main_scene="uid://ysjtketxcskq"
 config/features=PackedStringArray("4.7", "Mobile")
 
+[autoload]
+
+DeckHandler="*uid://34p51j5nhehk"
+
 [display]
 
 window/stretch/mode="canvas_items"
