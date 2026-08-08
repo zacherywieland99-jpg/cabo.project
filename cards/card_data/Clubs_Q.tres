@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cfp6jyj2jnf2e"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_08o6w"]
+[ext_resource type="Texture2D" uid="uid://33c8ncym4uop" path="res://cards/Clubs/Q-Clubs.png" id="2_p08vp"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_mjvoy"]
+
+[resource]
+script = ExtResource("3_mjvoy")
+displayName = "Q of Clubs"
+value = 12
+suit = 2
+frontTexture = ExtResource("2_p08vp")
+backTexture = ExtResource("1_08o6w")

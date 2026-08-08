@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://lia7c6744pk7"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_3h4ug"]
+[ext_resource type="Texture2D" uid="uid://dck55jtd35bbj" path="res://cards/Diamonds/Q-Diamonds.png" id="2_ynr12"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_8i6uf"]
+
+[resource]
+script = ExtResource("3_8i6uf")
+displayName = "Q of Diamonds"
+value = 12
+suit = 1
+frontTexture = ExtResource("2_ynr12")
+backTexture = ExtResource("1_3h4ug")

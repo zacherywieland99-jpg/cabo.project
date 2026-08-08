@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c7x721ld8ams8"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_1w1vt"]
+[ext_resource type="Texture2D" uid="uid://cyj7f70ti18xs" path="res://cards/Hearts/K-Hearts.png" id="2_5bthw"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_e44t1"]
+
+[resource]
+script = ExtResource("3_e44t1")
+displayName = "K of Hearts"
+value = 13
+frontTexture = ExtResource("2_5bthw")
+backTexture = ExtResource("1_1w1vt")

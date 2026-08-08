@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dnj3jtbav60op"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_8hjbm"]
+[ext_resource type="Texture2D" uid="uid://bp03ww0undcw8" path="res://cards/Spades/Q-Spades.png" id="2_okcut"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_jwxxq"]
+
+[resource]
+script = ExtResource("3_jwxxq")
+displayName = "Q of Spades"
+value = 12
+suit = 3
+frontTexture = ExtResource("2_okcut")
+backTexture = ExtResource("1_8hjbm")

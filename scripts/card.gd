@@ -50,8 +50,6 @@ func flip():
 		flipped = true
 		#since we are now assuming this card is in the player's hand, increment the number of flipped cards in the hands
 		hand.cards_flipped += 1
-	
-	
 
 func hover():
 	hovered = true

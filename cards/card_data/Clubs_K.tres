@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cwryrp8ktbsyb"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_w53ir"]
+[ext_resource type="Texture2D" uid="uid://pl7xappam7kq" path="res://cards/Clubs/K-Clubs.png" id="2_amnh8"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_rsubs"]
+
+[resource]
+script = ExtResource("3_rsubs")
+displayName = "K of Clubs"
+value = 13
+suit = 2
+frontTexture = ExtResource("2_amnh8")
+backTexture = ExtResource("1_w53ir")

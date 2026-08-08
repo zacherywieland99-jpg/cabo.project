@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://b7j6jh0s32yxq"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_fcxx3"]
+[ext_resource type="Texture2D" uid="uid://drf524snfpjw6" path="res://cards/Clubs/9-Clubs.png" id="2_hn24v"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_h5825"]
+
+[resource]
+script = ExtResource("3_h5825")
+displayName = "9 of Clubs"
+value = 9
+suit = 2
+frontTexture = ExtResource("2_hn24v")
+backTexture = ExtResource("1_fcxx3")

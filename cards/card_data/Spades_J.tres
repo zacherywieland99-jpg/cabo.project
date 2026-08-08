@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://2af1rck1nofs"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_5b6qo"]
+[ext_resource type="Texture2D" uid="uid://b4isk1cijtdyc" path="res://cards/Spades/J-Spades.png" id="2_wovb1"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_puoox"]
+
+[resource]
+script = ExtResource("3_puoox")
+displayName = "J of Spades"
+value = 11
+suit = 3
+frontTexture = ExtResource("2_wovb1")
+backTexture = ExtResource("1_5b6qo")

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://eqyjuifsnw8j"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_r5jkl"]
+[ext_resource type="Texture2D" uid="uid://ydrd7ke7yxdp" path="res://cards/Diamonds/K-Diamonds.png" id="2_tex2c"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_1d15f"]
+
+[resource]
+script = ExtResource("3_1d15f")
+displayName = "K of Diamonds"
+value = 13
+suit = 1
+frontTexture = ExtResource("2_tex2c")
+backTexture = ExtResource("1_r5jkl")
