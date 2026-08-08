@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://ysjtketxcskq"]
 
-[ext_resource type="Script" uid="uid://cmvlwshf2ited" path="res://scripts/card.gd" id="2_0aq6d"]
-[ext_resource type="Resource" uid="uid://bair1amtd0tod" path="res://cards/card_data/1OFHEARTS.tres" id="2_irwmq"]
+[ext_resource type="Script" uid="uid://cm3scpoqwpej2" path="res://scripts/handler.gd" id="3_irwmq"]
 
 [node name="main" type="CanvasLayer" unique_id=1869138105]
 
@@ -14,24 +13,14 @@ grow_horizontal = 2
 grow_vertical = 2
 metadata/_edit_use_anchors_ = true
 
-[node name="card" type="TextureRect" parent="Control" unique_id=1786465716]
-layout_mode = 0
-anchor_right = 0.055555556
-anchor_bottom = 0.14814815
-offset_right = -24.0
-offset_bottom = -56.0
-pivot_offset_ratio = Vector2(0.5, 0.5)
-script = ExtResource("2_0aq6d")
-data = ExtResource("2_irwmq")
-metadata/_edit_use_anchors_ = true
-
-[node name="card2" type="TextureRect" parent="Control" unique_id=2101829852]
-layout_mode = 0
-anchor_right = 0.055555556
-anchor_bottom = 0.14814815
-offset_right = -24.0
-offset_bottom = -56.0
-pivot_offset_ratio = Vector2(0.5, 0.5)
-script = ExtResource("2_0aq6d")
-data = ExtResource("2_irwmq")
-metadata/_edit_use_anchors_ = true
+[node name="handler" type="Control" parent="Control" unique_id=71795570]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 254.0
+offset_top = 560.0
+offset_right = -598.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_irwmq")

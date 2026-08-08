@@ -9,7 +9,7 @@ func _ready():
 	shuffle()
 # Called when the node enters the scene tree for the first time.
 func draw() -> CardData:
-	return 
+	return preload("res://cards/card_data/1OFHEARTS.tres")
 
 
 func discard(card : CardData):
