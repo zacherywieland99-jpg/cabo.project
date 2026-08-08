@@ -2,6 +2,8 @@
 
 [ext_resource type="Script" uid="uid://cmvlwshf2ited" path="res://scripts/card.gd" id="2_0aq6d"]
 [ext_resource type="Resource" uid="uid://bair1amtd0tod" path="res://cards/1OFHEARTS.tres" id="2_irwmq"]
+[ext_resource type="Script" uid="uid://duuornvc85bsu" path="res://scripts/card_slot.gd" id="3_irwmq"]
+[ext_resource type="Texture2D" uid="uid://c8awb8k1v2j4g" path="res://card-frame.png" id="4_hakmx"]
 
 [node name="main" type="CanvasLayer" unique_id=1869138105]
 
@@ -24,3 +26,21 @@ pivot_offset_ratio = Vector2(0.5, 0.5)
 script = ExtResource("2_0aq6d")
 data = ExtResource("2_irwmq")
 metadata/_edit_use_anchors_ = true
+
+[node name="card_slot" type="Control" parent="." unique_id=155510599]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="card_slot" type="Container" parent="card_slot" unique_id=602243835]
+layout_mode = 0
+offset_left = -32.0
+offset_top = -34.0
+offset_right = 33.0
+offset_bottom = 55.0
+script = ExtResource("3_irwmq")
+
+[node name="CardFrame" type="Sprite2D" parent="card_slot/card_slot" unique_id=1478547705]
+position = Vector2(32, 42)
+texture = ExtResource("4_hakmx")
