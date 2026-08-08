@@ -19,6 +19,9 @@ const CLICK_SLOP := 6.0
 const DRAG_ACTION: StringName = &"ClickL"
 
 
+signal just_flipped
+
+@onready var tween = create_tween()
 func _ready() -> void:
 	mouse_filter = Control.MOUSE_FILTER_STOP  # required for mouse_entered / _gui_input
 	resized.connect(_update_pivot)

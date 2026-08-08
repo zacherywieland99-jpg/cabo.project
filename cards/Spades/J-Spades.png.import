@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bbmhgdtpjmbg4"
-path="res://.godot/imported/J-Spade.png-a9f36bc29bb5344caacadd28559828bc.ctex"
+uid="uid://b4isk1cijtdyc"
+path="res://.godot/imported/J-Spades.png-d36779f1af7a193a26cb623765b7766e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cards/Spades/J-Spade.png"
-dest_files=["res://.godot/imported/J-Spade.png-a9f36bc29bb5344caacadd28559828bc.ctex"]
+source_file="res://cards/Spades/J-Spades.png"
+dest_files=["res://.godot/imported/J-Spades.png-d36779f1af7a193a26cb623765b7766e.ctex"]
 
 [params]
 

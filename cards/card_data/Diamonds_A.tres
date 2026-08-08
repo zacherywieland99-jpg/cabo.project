@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c411ytuo1kbog"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_hxydl"]
+[ext_resource type="Texture2D" uid="uid://bgr0fckh7jkss" path="res://cards/Diamonds/A-Diamonds.png" id="2_gwc8r"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_1dg3m"]
+
+[resource]
+script = ExtResource("3_1dg3m")
+displayName = "A of Diamonds"
+value = 1
+suit = 1
+frontTexture = ExtResource("2_gwc8r")
+backTexture = ExtResource("1_hxydl")

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dvpow7f4jg6sk"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_hytrb"]
+[ext_resource type="Texture2D" uid="uid://c4scn4gik0vwb" path="res://cards/Spades/7-Spades.png" id="2_cshdn"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_eqmh1"]
+
+[resource]
+script = ExtResource("3_eqmh1")
+displayName = "7 of Spades"
+value = 7
+suit = 3
+frontTexture = ExtResource("2_cshdn")
+backTexture = ExtResource("1_hytrb")

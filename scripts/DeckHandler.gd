@@ -17,6 +17,8 @@ func discard(card : CardData):
 	return
 
 func shuffle():
-	for file in DirAccess.open("res://cards/card_data/").get_files():
-		print(file)
+	for file in DirAccess.open("res://cards/card_data").get_files():
+		#collects all card images
+		drawPile.append(load("res://cards/card_data/" + file))
+		print(drawPile)
 		

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dbs54youu5v6o"]
+
+[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_uxwyq"]
+[ext_resource type="Texture2D" uid="uid://c3tg4jhwu3fcd" path="res://cards/Hearts/6-Hearts.png" id="2_7hole"]
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="3_ae26r"]
+
+[resource]
+script = ExtResource("3_ae26r")
+displayName = "6 of Hearts"
+value = 6
+frontTexture = ExtResource("2_7hole")
+backTexture = ExtResource("1_uxwyq")
