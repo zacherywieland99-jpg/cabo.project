@@ -1,14 +1,7 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cyvo4is41euuh"]
 
 [ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="1_8ecn6"]
-[ext_resource type="Texture2D" uid="uid://ca6v75xmrvdk" path="res://Red-Cover.png" id="1_de6ie"]
-[ext_resource type="Texture2D" uid="uid://bfabhr2ifvqmp" path="res://cards/Clubs/A-Clubs.png" id="2_ieuwi"]
 
 [resource]
 script = ExtResource("1_8ecn6")
-displayName = "Ace of Clubs"
-value = 1
-suit = 2
-frontTexture = ExtResource("2_ieuwi")
-backTexture = ExtResource("1_de6ie")
 metadata/_custom_type_script = "uid://jv6cb8kekr7k"
