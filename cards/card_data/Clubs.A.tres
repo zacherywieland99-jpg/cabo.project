@@ -3,5 +3,6 @@
 [ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="1_8ecn6"]
 
 [resource]
+resource_local_to_scene = true
 script = ExtResource("1_8ecn6")
 metadata/_custom_type_script = "uid://jv6cb8kekr7k"
