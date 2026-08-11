@@ -69,13 +69,25 @@ func _input(event: InputEvent) -> void:
 
 func load_card(cd: CardData) -> void:
 	data = cd
-	front_texture = cd.frontTexture
-	back_texture = cd.backTexture
-
-
-func show_back() -> void:
-	flipped = false
-	texture = back_texture
+	#set the front and back texture
+	frontTexture = cd.frontTexture
+	backTexture = cd.backTexture
+	#set the current texture to the back texture
+	texture = backTexture
+		
+func flip():
+	#check if this card is in a players hand
+	if get_parent() is HandHandler:
+		#since the parent has been verified to be a hand, put get_parent into a variable and cast it to HandHandler
+		var hand = get_parent() as HandHandler
+		#check if there are more than two flipped cards according to the parent, exit early if so
+		if hand.cards_flipped > 1:
+			return
+		
+		texture = frontTexture
+		flipped = true
+		#since we are now assuming this card is in the player's hand, increment the number of flipped cards in the hands
+		hand.cards_flipped += 1
 
 
 func show_front() -> void:

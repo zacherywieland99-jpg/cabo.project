@@ -16,5 +16,5 @@ enum SUITS {
 
 
 func activatePower() -> void:
-	#print(DeckHandler.dummyVar)
+	print(DeckHandler.dummyVar)
 	pass
