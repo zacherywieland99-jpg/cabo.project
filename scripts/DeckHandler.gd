@@ -9,7 +9,12 @@ func _ready():
 	shuffle()
 # Called when the node enters the scene tree for the first time.
 func draw() -> CardData:
-	return preload("res://cards/card_data/Clubs.A.tres")
+	return 
+
+
+@warning_ignore("unused_parameter")
+func discard(card : CardData):
+	return
 
 func shuffle():
 	for file in DirAccess.open("res://cards/card_data").get_files():

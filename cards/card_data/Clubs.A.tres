@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://bfabhr2ifvqmp" path="res://cards/Clubs/A-Clubs.png" id="2_ieuwi"]
 
 [resource]
+resource_local_to_scene = true
 script = ExtResource("1_8ecn6")
 displayName = "Ace of Clubs"
 value = 1
