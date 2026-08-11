@@ -8,6 +8,8 @@ var backTexture : Texture2D
 
 var hovered = false
 var flipped = false
+var dragging = false
+
 
 signal just_flipped
 
@@ -19,13 +21,22 @@ func _ready() -> void:
 	
 	pivot_offset_ratio = Vector2(0.5,0.5)
 	
-
-
 func _process(delta: float) -> void:
+	
+	#drags card around the board
+	if dragging:
+		global_position = get_global_mouse_position() - size / 2
+		
 	if Input.is_action_just_pressed("ClickL") and hovered:
 		flip()
+		dragging = true
+		
+	if Input.is_action_just_released("ClickL"):
+		dragging = false
+
 	if Input.is_action_just_pressed("ClickR") and hovered:
 		data.activatePower()
+		
 
 func loadcard(cd : CardData):
 	#set this card's data to the passed card data
@@ -35,8 +46,7 @@ func loadcard(cd : CardData):
 	backTexture = cd.backTexture
 	#set the current texture to the back texture
 	texture = backTexture
-
-
+		
 func flip():
 	#check if this card is in a players hand
 	if get_parent() is HandHandler:

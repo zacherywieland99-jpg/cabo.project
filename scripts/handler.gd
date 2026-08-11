@@ -8,7 +8,6 @@ var cards_flipped = 0
 func _ready() -> void:
 	for i in range(0, 4):
 		add_card()
-	
 
 
 func add_card():
