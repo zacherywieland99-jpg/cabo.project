@@ -1,5 +1,6 @@
-[gd_scene format=3 uid="uid://ysjtketxcskq"]
+[gd_scene format=3 uid="uid://bsb20w45skkgh"]
 
+[ext_resource type="Script" uid="uid://jv6cb8kekr7k" path="res://scripts/card_data.gd" id="1_irwmq"]
 [ext_resource type="Script" uid="uid://cm3scpoqwpej2" path="res://scripts/handler.gd" id="3_irwmq"]
 
 [node name="main" type="CanvasLayer" unique_id=1869138105]
@@ -11,6 +12,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_irwmq")
 metadata/_edit_use_anchors_ = true
 
 [node name="handler" type="Control" parent="Control" unique_id=71795570]
